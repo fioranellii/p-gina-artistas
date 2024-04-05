@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato Artistas</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário para artistas</h1>
+    </header>
+    <hr>
+
+    <nav>
+        <ul>
+            <li><a href="#">Página inicial</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <form method="post"></form>
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                <br>
+                <label>Nome:  </label>
+                <br>
+                <input type="text" name="nome" id="nome">
+                <br><br>
+                <label>Email: </label>
+                <br>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label>Senha: </label>
+                <br>
+                <input type="password" name="senha" id="senha">
+                <br><br>
+                <label>Telefone: </label>
+                <br>
+                <input type="tel" name="telefone" id="telefone">
+                <br><br>
+                <label>Idade: </label>
+                <br>
+                <input type="number" name="idade" id="idade" min="1" max="10000" step="1">
+                <br><br>
+                <label>Data de nascimento: </label>
+                <br>
+                <input type="date" name="data" id="data">
+                <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferências</legend>
+                <br>
+                <label>Gênero musical</label>
+                <select name="genero" id="genero">
+                    <option value="pop">Pop</option>
+                    <option value="rock">rock</option>
+                    <option value="blues">Blues</option>
+                    <option value="funk">Funk</option>
+                    <option value="mpb">MPB</option>
+                </select>
+                <br><br>
+                <label>Instrumentos</label>
+                <br>
+                <input type="checkbox" name="guitarra" id="guitarra">guitarra
+                <br>
+                <input type="checkbox" name="violao" id="violao">Violão
+                <br>
+                <input type="checkbox" name="bateria" id="bateria">Bateria
+                <br>
+                <input type="checkbox" name="mic" id="mic">Microfone
+                <br>
+            </fieldset>
+            <fieldset>
+                <br>
+                <legend>Biogrfia</legend>
+                <textarea name="bio" id="bio" cols="80" rows="7"></textarea>
+
+            </fieldset>
+            <fieldset>
+                <br>
+                <legend>Fotos</legend>
+                <input type="file" name="" value="">
+            </fieldset>
+            <br>
+            <center>
+                <input type="submit" value="Enviar">
+            </center>
+        </section>
+    </main>
+
+    <footer>
+        <br><br>
+        <hr>
+        <center>
+            &copy; Formulário de envio
+        </center>
+    </footer>
+
+</body>
+</html>
